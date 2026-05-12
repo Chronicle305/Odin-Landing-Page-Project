@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  font-family: Verdana, Roboto, Tahoma, sans-serif;
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* nav and hero styling */
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.header-nav ul a {
+  text-decoration: none;
+  color: white;
+}
+
+.header-nav,
+.hero {
+  background-color: #1f2937;
+  color: white;
+  padding: 20px;
+}
+
+.hero-main-text {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.hero p,
+.header-nav ul a {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  padding: 80px 20px;
+}
+
+.hero-info {
+  padding: 15px;
+  max-width: 500px;
+}
+
+.hero-img img {
+  width: 500px;
+  height: auto;
+}
+
+.card-img {
+  width: 160px;
+  height: 160px;
+}
+
+button {
+  background-color: #3882f6;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  width: 100px;
+  padding: 10px;
+}
+
+/* info-cards */
+.info-section h2 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+}
+
+.card {
+  /* outline: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 170px;
+  text-align: center;
+}
+
+.card .card-img {
+  border-radius: 10%;
+}
+
+/* quote section */
+.quote-section {
+  background-color: #e5e7eb;
+  padding: 90px 20px;
+}
+.quote-container {
+  text-align: center;
+  margin: 30px 0;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  color: #1f2937;
+}
+
+.quote-author {
+  text-align: right;
+  font-weight: 700;
+}
+
+/* call to action */
+.cta-section {
+  padding: 80px 20px;
+}
+
+.call-to-action {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #3882f6;
+  color: white;
+  border-radius: 8px;
+  padding: 40px 80px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.call-to-action button {
+  border: 2px solid white;
+}
+/* footer */
+footer {
+  background-color: #1f2937;
+  color: white;
+  text-align: center;
+  padding: 32px;
+}
